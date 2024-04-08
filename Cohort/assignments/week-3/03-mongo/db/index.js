@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://shyam221299:admin123@cluster0.bpn0oyi.mongodb.net/');
+mongoose.connect('mongodb+srv://shyam221299:admin123@cluster0.ktleylb.mongodb.net/course_selling_app?retryWrites=true&w=majority&appName=Cluster0');
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
     // Schema definition here
-    usename: String,
+    username: String,
     password: String
 });
 
