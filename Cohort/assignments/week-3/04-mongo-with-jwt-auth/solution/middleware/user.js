@@ -1,4 +1,4 @@
-const {JWT_SECRET} = require("../config");
+const JWT_SECRET = "tecnofyle";
 const jwt = require("jsonwebtoken");
 
 function userMiddleware(req, res, next) {
