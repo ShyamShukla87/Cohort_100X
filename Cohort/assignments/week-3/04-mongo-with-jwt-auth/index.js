@@ -4,7 +4,7 @@ const app = express();
 const adminRouter = require("./routes/admin")
 const userRouter = require("./routes/user");
 
-const JWT_SECRET = "tecnofyle";
+const JWT_SECRET = "tecnofyle_server";
 
 // Middleware for parsing request bodies
 app.use(bodyParser.json());
